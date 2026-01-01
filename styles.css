@@ -262,3 +262,9 @@ body {
   .calendar-legend { display: none; }
   .install-banner { left: 10px; right: 10px; }
 }
+
+.author-links { display: flex; gap: 10px; }
+.author-link { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 15px; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; color: var(--text); text-decoration: none; transition: all 0.2s; }
+.author-link:active { background: var(--bg-card-hover); border-color: var(--primary); }
+.author-link-icon { font-size: 1.2rem; }
+.author-link-text { font-size: 0.95rem; font-weight: 600; }
